@@ -1,0 +1,27 @@
+.service-back{
+    border-radius: 8px;
+    background-image: var(--btn-hover);
+    padding: 1rem 0;
+}
+.card-service{
+    background-color: var(--card-color);
+    border-radius: 8px;
+    padding: 4rem 0 0 0 !important;
+}
+.icon_service{
+    font-size: 50px;
+    margin: .5rem;
+    background: var(--btn);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.gedein:hover{
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.04);
+  }
