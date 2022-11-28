@@ -14,11 +14,11 @@
 
         <div class="row d-flex justify-content-center service-back">
                 <div class="col-lg-4">
-                    <div class=" card-service gedein">   
-                        <div>
-                            <i class="uil uil-web-grid icon_service"></i>
+                    <div class="card-service gedein">   
+                        
+                            <p><i class="uil uil-web-grid icon_service"></i></p>
                             <div class="title-third">UI/UX Designer</div>
-                        </div>
+                        
                         <div class="collapse" id="kebawah1">
                                 <div class="card card-body">
                                     <ul class="fa-ul">

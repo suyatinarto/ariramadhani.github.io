@@ -1,16 +1,13 @@
 <section class="back_top">
     <div class="container d-flex flex-column min-vh-100 justify-content-center">
         <div class="card_center d-flex flex-column justify-content-center align-items-center">
-            <div class="social-container">
-                <ul class="social-icons">
-                    <li><a href="https://www.instagram.com/ardhani34"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://dribbble.com/ardhani34" class="social-square"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="https://www.behance.net/ardhani34"><i class="fa fa-behance"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/ariramadhani"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/ariramadhani" class="social-square"><i class="fa fa-github"></i></a></li>
-                </ul>
-            </div>
-            
+            <ul class="social-icons">
+                <li><a href="https://www.instagram.com/ardhani34"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://dribbble.com/ardhani34" class="social-square"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="https://www.behance.net/ardhani34"><i class="fa fa-behance"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ariramadhani"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/ariramadhani" class="social-square"><i class="fa fa-github"></i></a></li>
+            </ul>
             <div class="hello myname">
                 <span>Hello,</span> &nbsp; <span>My</span>&nbsp; <span>N</span><span>a</span><span>m</span><span>e</span>&nbsp;<span>i</span><span>s</span>
             </div>

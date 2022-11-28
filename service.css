@@ -8,20 +8,52 @@
     border-radius: 8px;
     padding: 4rem 0 0 0 !important;
 }
-.icon_service{
-    font-size: 50px;
-    margin: .5rem;
-    background: var(--btn);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 
-
-.gedein:hover{
+.gedein:hover {
     transition: all 0.2s ease-in-out;
     -webkit-transform: scale(1.08);
     transform: scale(1.04);
   }
+
+  .gedein:hover p:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+  }
+  .gedein:hover p i {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    color: var(--first-color);
+    background: var(--btn-hover);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+  }
+  .gedein p {
+    display: inline-block;
+    margin: 0.5rem;
+    position: relative;
+    font-size: 44px;
+  }
+  .gedein i {
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    transition: all 265ms ease-out;
+  }
+  .gedein p:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: block;
+    background: var(--btn);
+    transition: all 265ms ease-out;
+  }
+  
+  

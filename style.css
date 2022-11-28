@@ -81,7 +81,15 @@ body::-webkit-scrollbar {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    animation: pulse 1s;
+  box-shadow: 0 0 0 1em transparent;
   }
+
+  
+
+@keyframes pulse {
+  0% { box-shadow: 0 4px 15px 0 var(--second-color); }
+}
   
   .title-first{
     position: relative;
