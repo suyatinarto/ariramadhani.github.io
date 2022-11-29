@@ -21,8 +21,8 @@ $(document).ready(function(){
 
 
   // kedip1
-document.querySelector('.kedip1').addEventListener('click', function() {
-  const icon = this.querySelector('.lihat_tutup1');
+document.querySelector('.service_close').addEventListener('click', function() {
+  const icon = this.querySelector('.service-view');
   const text = this.querySelector('span');
 
   if (icon.classList.contains('fafsaf')) {

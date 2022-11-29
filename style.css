@@ -191,7 +191,7 @@ body::-webkit-scrollbar {
   padding-left: 0;
 }
 .fa-li {
-  margin-left: -1.8rem;
+  margin-left: 0rem;
     position: absolute;
     font-size: 1.2em;
 }
