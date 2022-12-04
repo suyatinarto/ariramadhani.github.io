@@ -12,12 +12,10 @@
             </div>
         </div>
 
-
-
         <div id="timeline" class="cd-container">
 			<div class="timeline-block">
 				<div class="timeline-img cd-picture">
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+					<i class="uis uis-web-grid ex_icon"></i>
 				</div> <!-- timeline-img -->
 
 				<div class="timeline-content">
@@ -66,7 +64,7 @@
 
 			<div class="timeline-block">
 				<div class="timeline-img cd-picture">
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
+					<i class="fa-solid fa-mobile-button ex_icon"></i>
 				</div> <!-- timeline-img -->
 
 				<div class="timeline-content">
@@ -102,7 +100,7 @@
 
 			<div class="timeline-block">
 				<div class="timeline-img cd-picture">
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+					<i class="uis uis-window-maximize ex_icon"></i>
 				</div> <!-- timeline-img -->
 
 				<div class="timeline-content">
@@ -138,7 +136,7 @@
 
 			<div class="timeline-block">
 				<div class="timeline-img cd-picture">
-					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
+				<i class="fa-solid fa-robot ex_icon"></i>
 				</div> <!-- timeline-img -->
 
 				<div class="timeline-content">

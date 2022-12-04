@@ -83,14 +83,15 @@
     border-radius: 50%;
     box-shadow: 0 0 0 4px var(--card-color), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   }
-  .timeline-img img {
+  .timeline-img .ex_icon {
+    color: white;
     display: block;
     width: 24px;
     height: 24px;
     position: relative;
     left: 50%;
     top: 50%;
-    margin-left: -12px;
+    margin-left: -10px;
     margin-top: -12px;
   }
   .timeline-img.cd-picture {
@@ -215,7 +216,7 @@
       position: absolute;
       width: 100%;
       left: 132%;
-      top:16px;
+      top:16px; 
     }
     .timeline-block:nth-child(even) .timeline-content {
       float: right;
@@ -362,4 +363,20 @@
   border: .8px solid;
   background-image: var(--btn);
   border-radius: 8px;
+}
+
+
+.modal_service{
+  background-color: var(--back) !important;
+}
+.close_exp{
+  border: none;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.close_exp:hover{
+  border: none;
+  background-color: transparent;
+  color: var(--second-color);
 }
