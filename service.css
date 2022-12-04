@@ -58,7 +58,7 @@
   }
   
   .service-view{
-    font-size: .9rem;
+    font-size: var(--small);
     color: var(--first-color);
   }
   .service-view:hover{
@@ -71,6 +71,7 @@
     transition: all .4s ease-in-out;
     animation: pulse .3s;
     box-shadow: 0 0 0 1em transparent;
+    cursor: pointer;
   }
   
 
@@ -85,3 +86,4 @@
 .card-body{
   background-color: var(--back) !important;
 }
+

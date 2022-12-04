@@ -28,7 +28,7 @@ document.querySelector('.service_close').addEventListener('click', function() {
   if (icon.classList.contains('fafsaf')) {
     icon.classList.remove('fafsaf');
     icon.classList.add('fafsaf-slash');
-    text.innerHTML = 'View More';
+    text.innerHTML = 'Read More';
   } else {
     icon.classList.remove('fafsaf-slash');
     icon.classList.add('fafsaf');

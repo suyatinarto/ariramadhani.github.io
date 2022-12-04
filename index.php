@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="hero.css">
   <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="service.css">
+  <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="portfolio.css">
+  
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <!-- Required meta tags -->
@@ -26,6 +29,7 @@
     include('hero.php');
     include('about.php');
     include('service.php');
+    include('experience.php');  
     ?>
 
     <!-- Optional JavaScript; choose one of the two! -->

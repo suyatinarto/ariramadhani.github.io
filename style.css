@@ -13,6 +13,7 @@
     --card-color: #261D35;
 
     --back:#130E1B;
+    --small: .9rem;
         
 
     /*========== Font and typography ==========*/
@@ -29,6 +30,7 @@ body{
     overflow-y: scroll;
     scroll-snap-type: y mandatory;;
     color: var(--title-color) !important;
+    font-weight: 400 !important;
 }
 body::-webkit-scrollbar {
     width: 0px;
@@ -193,5 +195,4 @@ body::-webkit-scrollbar {
 .fa-li {
   margin-left: 0rem;
     position: absolute;
-    font-size: 1.2em;
 }
