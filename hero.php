@@ -21,7 +21,7 @@
         </div>
         <br>
         <div class="text-center">
-            <a href="#about" class="scrollin-button button--flex">
+            <a href="#about" class="scrollin-button button--flex ">
                 <i class="uil uil-mouse-alt scrollin-mouse"></i>
                 <span>Scroll down</span>
                 <i class="uil uil-arrow-down scrollin-arrow"></i>

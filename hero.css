@@ -53,6 +53,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
      transition: .3s;
+     font-size: var(--small);
  }
  .scrollin-button:hover{
     background: var(--btn-hover);

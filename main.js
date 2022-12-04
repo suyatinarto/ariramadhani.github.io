@@ -35,3 +35,46 @@ document.querySelector('.service_close').addEventListener('click', function() {
     text.innerHTML = 'Close';
   }
 });
+
+// 
+
+/*==================== EXPERIENCE TABS ====================*/
+const tabs = document.querySelectorAll('[data-target]'),
+      tabContents = document.querySelectorAll('[data-content]')
+
+tabs.forEach(tab =>{
+    tab.addEventListener('click', () => {
+        const target =document.querySelector(tab.dataset.target)
+
+        tabContents.forEach(tabContent => {
+            tabContent.classList.remove('portfolio__active')
+        })
+        target.classList.add('portfolio__active')
+
+        tabs.forEach(tab => {
+            tab.classList.remove('portfolio__active')
+        })
+        tab.classList.add('portfolio__active')
+    })
+    
+})
+
+
+const tabqsq = document.querySelectorAll('[data-target]'),
+      tabqContentsq = document.querySelectorAll('[data-content]')
+
+tabqsq.forEach(tabq =>{
+    tabq.addEventListener('click', () => {
+        const target =document.querySelector(tabq.dataset.target)
+
+        tabqContentsq.forEach(tabqContent => {
+            tabqContent.classList.remove('experience__active')
+        })
+        target.classList.add('experience__active')
+
+        tabqsq.forEach(tabq => {
+            tabq.classList.remove('experience__active')
+        })
+        tabq.classList.add('experience__active')
+    })
+})
