@@ -41,6 +41,7 @@
     include('service.php');
     include('experience.php');  
     include('portfolio.php');  
+    include('modal.php');  
     ?>
 
     <!-- Optional JavaScript; choose one of the two! -->

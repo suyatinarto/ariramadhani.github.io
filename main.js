@@ -78,3 +78,27 @@ tabqsq.forEach(tabq =>{
         tabq.classList.add('experience__active')
     })
 })
+
+
+
+// modal
+document.querySelector("#unsada").addEventListener('click', function() {
+  document.querySelector("#unsada-modal").style.display = 'flex';
+  document.querySelector("body").style.overflow = 'hidden';
+});
+
+document.querySelector("#close-unsada").addEventListener('click', function() {
+  document.querySelector("#unsada-modal").style.display = 'none';
+  document.querySelector("body").style.overflow = 'visible';
+});
+
+document.querySelector("#lpkn").addEventListener('click', function() {
+  document.querySelector("#lpkn-modal").style.display = 'flex';
+  document.querySelector("body").style.overflow = 'hidden';
+});
+
+document.querySelector("#close-lpkn").addEventListener('click', function() {
+  document.querySelector("#lpkn-modal").style.display = 'none';
+  document.querySelector("body").style.overflow = 'visible';
+});
+
