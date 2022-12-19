@@ -24,18 +24,53 @@
                     <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Create User Manual document</li>
                     <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Create Preliminary report</li>
                     <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Create Monthly report</li>
-                    <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Create Minutes of Meeting report</li><br>
+                    <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Create Minutes of Meeting report</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-
-<div id="unsada-modal">
+<div id="udc-modal">
+    <div class="modal-dialog">
+        <div class="modal-content modal_service">
+            <div class="modal-header">
+                <h5 class="modal-title" id="udcLabel">PT. Koding Teknologi Asia</h5>
+                <button type="button" class="close_exp" id="close-udc">
+                <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="fa-ul">
+                    <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Create app using flutter and API with PHP.</li>
+                    <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Write tutorial books, how to make mobile app.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="al-modal">
     <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content modal_service">
+            <div class="modal-header">
+                <h5 class="modal-title" id="alLabel">Al-Aqsha</h5>
+                <button type="button" class="close_exp" id="close-al">
+                <span aria-hidden="true" >X</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="fa-ul">
+                    <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Created Students Ranking System Using TOPSIS (Technique For Others Reference by Similarity to Ideal Solution) and SAW (Simple Additive Weighting)</li>
+                    <li class="mb-0"><span class="fa-li service-check"><i class="uis uis-check-circle"></i></span>Created an Information System for the Needs of the Mosque Congregation with VB.Net</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="unsada-modal">
+    <div class="modal-dialog">
             <div class="modal-content modal_service">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="unsadaLabel">Darna Persada University</h5>
+                    <h5 class="modal-title" id="unsadaLabel">Darma Persada University</h5>
                     <button type="button" class="close_exp" id="close-unsada">
                     <span aria-hidden="true">X</span>
                     </button>

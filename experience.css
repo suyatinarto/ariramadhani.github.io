@@ -384,11 +384,30 @@
 
 
 
-#unsada-modal,#lpkn-modal{
+#unsada-modal,#udc-modal,#al-modal{
   position: fixed;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--modal-back);
   top: 0;
   left: 0;
   display: none;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#lpkn-modal{
+  position: fixed;
+  width: 100vw;
+  background-color: var(--modal-back);
+  top: 0;
+  left: 0;
+  display: none;
+  height: 100vh;
+}
+
+@media screen and (max-width:500px){
+  .modal-dialog-scrollable{
+    margin-bottom: 4rem !important;
+  }
 }
