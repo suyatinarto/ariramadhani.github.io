@@ -368,13 +368,13 @@
 .modal_service{
   background-color: var(--back) !important;
 }
-.close_exp{
+.close_exp,.mfp-close{
   border: none;
   background-color: transparent;
   color: var(--first-color) !important;
 }
 
-.close_exp:hover{
+.close_exp:hover,.mfp-close{
   border: none;
   background-color: transparent;
   color: var(--second-color) !important;
