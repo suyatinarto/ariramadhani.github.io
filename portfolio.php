@@ -160,38 +160,23 @@
                         </a>                        
                     </div>
                     <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/eumkk1.png" class="report-popup" >
-                            <img src="assets/img/report/eumkk1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
+                        <a href="assets/img/report/jm.png" class="report-popup" >
+                            <img src="assets/img/report/jm.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
                         </a>                        
                     </div>
                     <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/pendahuluan1.png" class="report-popup" >
-                            <img src="assets/img/report/pendahuluan1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
+                        <a href="assets/img/report/edukukm.png" class="report-popup" >
+                            <img src="assets/img/report/edukukm.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
                         </a>                        
                     </div>
                     <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/bulanantender1.png" class="report-popup" >
-                            <img src="assets/img/report/bulanantender1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
+                        <a href="assets/img/report/avendo.png" class="report-popup" >
+                            <img src="assets/img/report/avendo.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
                         </a>                        
                     </div>
                     <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/fsdtender1.png" class="report-popup" >
-                            <img src="assets/img/report/fsdtender1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
-                        </a>                        
-                    </div> 
-                    <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/momtender1.png" class="report-popup" >
-                            <img src="assets/img/report/momtender1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
-                        </a>                        
-                    </div> 
-                    <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/uattender1.png" class="report-popup" >
-                            <img src="assets/img/report/uattender1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
-                        </a>                        
-                    </div> 
-                    <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/report/umtender1.png" class="report-popup" >
-                            <img src="assets/img/report/umtender1.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
+                        <a href="assets/img/report/umkk.png" class="report-popup" >
+                            <img src="assets/img/report/umkk.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
                         </a>                        
                     </div> 
                 </div>

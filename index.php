@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="service.css">
   <link rel="stylesheet" href="experience.css">
   <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="footer.css">
   
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -52,6 +53,7 @@
     include('experience.php');  
     include('portfolio.php');  
     include('modal.php');  
+    include('footer.php');  
     ?>
 
     <!-- Optional JavaScript; choose one of the two! -->
