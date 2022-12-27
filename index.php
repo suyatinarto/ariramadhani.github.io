@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="batman.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="hero.css">

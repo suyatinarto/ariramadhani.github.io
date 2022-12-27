@@ -15,10 +15,76 @@
         
         
         <div class="row">
-            <div class="col-sm-6 text-center">
-                <img src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480" alt="">
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div class="batman text-left">
+                        <!--face-->
+                    <div class="" id="face">
+                        <!--ear-->
+                        <div>
+                            <div class="ear1"></div>
+                            <div class="ear2"></div>
+                        </div>
+                        <!--face shading-->
+                        <div class="face_shade"></div>
+                        <!--face shine-->
+                        <div>
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                        </div>
+                        <!--lower face-->
+                        <div>
+                            <div class="lower_face_shade"></div>
+                            <div class="lower_face"></div>
+                            <div class="mouth"></div>
+                            <div class="chin"></div>
+                        </div>
+                        <!--eyes-->
+                        <div>
+                            <div class="eye1">
+                                <div class="eyebrow"></div>
+                            </div>
+                            <div class="eye1 eye2">
+                                <div class="eyebrow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--lower body,hands, and cape-->
+                    <div class="" id="cape">
+                        <!--hands-->
+                        <div class="hands ">
+                            <div class="hand1"></div>
+                            <div class="hand1 hand2"></div>
+                        </div>
+                        <!--torso-->
+                        <div class="" id="torso">
+                            <div class="torso_shade"></div>
+                            <!--belt-->
+                                <div class="dark1"></div>
+                                <div class="belt-position">
+                                    <div class="belt">
+                                    <div class="belt_"></div>
+                                    </div>
+                                    <div class="belt1">
+                                        <div class="belt_1"></div>
+                                    </div>
+                                    <div class="belt2">
+                                        <div class="belt_2"></div>
+                                    </div>
+                                    <div class="belt3"></div>
+                                    <div class="belt4"></div>
+                                </div>
+                            <!--bat sign-->
+                            <div class="bat-sign">
+                                <div class="bat"></div>
+                                <div class="lower_tail"></div>
+                                <div class="white_shine"></div>
+                                <div class="white_shine rotate"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-5 text-left">
+        <div class="col-sm-6 text-left mt-4 pt-4">
                 
                             I enjoy create simple, neat and elegant UI. 
                             I will implement my design in clean code.
@@ -29,7 +95,11 @@
                 <a href="#contact" class="button button--flex mt-4">
                     Contact Me<i class="uil uil-message button_icon"></i>
                 </a>
-            </div>
+        </div>
+            
+
+            
+            
         </div>
     </div>
 </section>
