@@ -4,7 +4,7 @@
             <div class="title-first">
                 <span></span>
                 <span></span>
-                <span></span>
+                <span></span> 
                 <span></span>About Me 
             </div>
             <div class="title-second">
