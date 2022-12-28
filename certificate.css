@@ -1,0 +1,33 @@
+.back-beauty{
+    position: relative;
+}
+.beauty_prev{
+    position: absolute;
+    top: 30%;
+    color: #52565ef5;
+    left: 8px;
+    font-size: 2rem;
+    }
+.beauty_next{
+    position: absolute;
+    top: 30%;
+    color: #52565ef5;
+    right: 8px;
+    font-size: 2rem;
+}
+ .detail-beauty_prev{
+        position: absolute;
+        top: 50%;
+        color: #52565ef5;
+        left: 8px;
+        font-size: 2rem;
+    }
+    
+ .detail-beauty_next{
+        position: absolute;
+        top: 50%;
+        color: #52565ef5;
+        right: 8px;
+        font-size: 2rem;
+    }
+    

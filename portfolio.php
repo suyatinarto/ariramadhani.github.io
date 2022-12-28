@@ -1,44 +1,44 @@
 <section class="portfolio" id="portfolio">
     <div class="container">
         <div class="title-out text-center">
-        <div class="title-first">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>Portfolio
-        </div>
-        <div class="title-second">
-            Most recent Work
-        </div>
-    </div>
-    <div class="container">
-        <div class="portfolio__tabs">
-            <div class="portfolio__button button--flex portfolio__active" data-target='#uimobile'>
-            <i class="uil uil-mobile-android portfolio__icon"></i>
-                UI Mobile
+            <div class="title-first">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>Portfolio
             </div>
+            <div class="title-second">
+                Most recent Work
+            </div>
+        </div>
+        <div class="container">
+            <div class="portfolio__tabs">
+                <div class="portfolio__button button--flex portfolio__active" data-target='#uimobile'>
+                <i class="uil uil-mobile-android portfolio__icon"></i>
+                    UI Mobile
+                </div>
+                    
+                <div class="portfolio__button button--flex" data-target='#uiweb'>
+                <i class="uil uil-window portfolio__icon"></i>
+                    UI Web
+                </div>
                 
-            <div class="portfolio__button button--flex" data-target='#uiweb'>
-            <i class="uil uil-window portfolio__icon"></i>
-                UI Web
+                <div class="portfolio__button button--flex" data-target='#designnya'>
+                <i class="uil uil-icons portfolio__icon"></i>
+                    Design
+                </div>
+                <div class="portfolio__button button--flex" data-target='#report'>
+                    <i class="uil uil-file-shield-alt portfolio__icon"></i>
+                    Report
+                </div>
+                
+                <div class="portfolio__button button--flex" data-target='#app'>
+                    <i class="uil uil-apps portfolio__icon"></i>
+                    App
+                </div>
             </div>
-            
-            <div class="portfolio__button button--flex" data-target='#designnya'>
-            <i class="uil uil-icons portfolio__icon"></i>
-                Design
-            </div>
-            <div class="portfolio__button button--flex" data-target='#report'>
-                <i class="uil uil-file-shield-alt portfolio__icon"></i>
-                Report
-            </div>
-            
-            <div class="portfolio__button button--flex" data-target='#app'>
-                <i class="uil uil-apps portfolio__icon"></i>
-                App
-            </div>
-        </div>
 
-    <div>
+        <div>
             <!--==================== PORTFOLIO Content 1 ====================-->
             <div class="portfolio__active" data-content id="uimobile">
                 <!--==================== PORTFOLIO 1 ====================-->
@@ -70,7 +70,6 @@
                     </div>
                 </div>      
             </div>
-
             <!--==================== PORTFOLIO Content 2 ====================-->
             <div class="portfolio__content" data-content id="uiweb">
                 <!--==================== PORTFOLIO 1 ====================-->
@@ -106,7 +105,6 @@
 
                 </div>
             </div>
-
             <!--==================== PORTFOLIO Content 3 ====================-->
             <div class="portfolio__content" data-content id="designnya">
                 <!--==================== PORTFOLIO 1 ====================-->
@@ -181,7 +179,6 @@
                     </div> 
                 </div>
             </div>
-            
             <!--==================== PORTFOLIO Content 5 ====================-->
             <div class="portfolio__content" data-content id="app">
                 <div class="row">
@@ -252,7 +249,6 @@
                     </div> 
                 </div>
             </div>
-            
         </div>
     </div>
 </section>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="experience.css">
   <link rel="stylesheet" href="portfolio.css">
   <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="certificate.css">
   
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -43,7 +44,9 @@
         <!-- BOOTSTRAP 4-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
 
-    
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -54,6 +57,7 @@
     include('experience.php');  
     include('portfolio.php');  
     include('modal.php');  
+    include('certificate.php');  
     include('footer.php');  
     ?>
 
@@ -67,6 +71,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/22cf387793.js" crossorigin="anonymous"></script>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Slick JS -->    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Our Script -->
+    <script>
+        $(document).ready(function(){
+            $('.your-beauty-class').slick({
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: false,
+                  arrows: true,
+                  prevArrow:'.beauty_prev',
+                  nextArrow:'.beauty_next',
+                  responsive: [
+              {
+              breakpoint: 480,
+              settings: {
+                  arrows: false,
+                  slidesToShow: 1
+              }
+              }
+            ]
+          });
+          
+        });
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
