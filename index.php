@@ -78,26 +78,7 @@
 
     <!-- Our Script -->
     <script>
-        $(document).ready(function(){
-            $('.your-beauty-class').slick({
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  infinite: false,
-                  arrows: true,
-                  prevArrow:'.beauty_prev',
-                  nextArrow:'.beauty_next',
-                  responsive: [
-              {
-              breakpoint: 480,
-              settings: {
-                  arrows: false,
-                  slidesToShow: 1
-              }
-              }
-            ]
-          });
-          
-        });
+        
     </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

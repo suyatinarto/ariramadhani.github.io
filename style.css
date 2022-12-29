@@ -207,3 +207,8 @@ body::-webkit-scrollbar {
   margin-left: 0rem;
     position: absolute;
 }
+@media screen and (min-width: 500px){
+  .center-horizontal{
+          align-items: center;
+      }
+  }

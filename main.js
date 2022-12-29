@@ -117,3 +117,28 @@ document.querySelector("#close-unsada").addEventListener('click', function() {
   document.querySelector("#unsada-modal").style.display = 'none';
   document.querySelector("body").style.overflow = 'visible';
 });
+
+
+// slickjs
+$(document).ready(function(){
+  $('.your-beauty-class').slick({
+    dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: true,
+        prevArrow:'.beauty_prev',
+        nextArrow:'.beauty_next',
+        infinite: true,
+        responsive: [
+    {
+    breakpoint: 480,
+    settings: {
+        arrows: false,
+        slidesToShow: 1
+    }
+    }
+  ]
+});
+
+});

@@ -43,7 +43,7 @@
 }
 .portfolio__img{ 
     max-width: 100%;
-    border-radius: .5rem;
+    border-radius: 8px;
     justify-self: center;
     margin: .5rem;
   transition: .5s ease;

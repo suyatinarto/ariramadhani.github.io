@@ -372,12 +372,14 @@
   border: none;
   background-color: transparent;
   color: var(--first-color) !important;
+  opacity: 1 !important;
 }
 
-.close_exp:hover,.mfp-close{
+.close_exp:hover,.mfp-close:hover{
   border: none;
   background-color: transparent;
   color: var(--second-color) !important;
+  opacity: .6 !important;
 }
 
 /*  */
