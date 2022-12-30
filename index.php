@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="batman.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="nav.css">
@@ -51,6 +52,7 @@
   </head>
   <body>
     <?
+    include('header.php');
     include('hero.php');
     include('about.php');
     include('service.php');
@@ -65,6 +67,7 @@
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="main.js"></script>
+    <script src="header.js"></script>
     <script src="portfolio.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -77,9 +80,6 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <!-- Our Script -->
-    <script>
-        
-    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

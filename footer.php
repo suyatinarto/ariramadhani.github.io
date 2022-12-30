@@ -1,4 +1,4 @@
-<footer class="p-4 mt-4">
+<footer class="p-4 mt-4 mb-4 mb-md-0">
     <div class="f-text">
         Need a solution to your problem ?
     </div>
@@ -16,3 +16,6 @@
         <p class="footer__copy">&#169; Ari Ramadhani</p>
     </div>
 </footer>
+<a href="#home" class="scrollup show-scroll" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>

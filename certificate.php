@@ -1,4 +1,4 @@
-<section class="certificate">
+<section id="certificate" class="pt-md-1 pb-4">
     <div class="container">
         <div class="title-out text-center">
             <div class="title-first">

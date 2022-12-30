@@ -1,11 +1,11 @@
-<section id="about">
+<section id="about" class="pt-md-1">
     <div class="container text-center">
         <div class="title-out">
             <div class="title-first">
                 <span></span>
                 <span></span>
                 <span></span> 
-                <span></span>About Me 
+                <span></span>About
             </div>
             <div class="title-second">
             My Introduction

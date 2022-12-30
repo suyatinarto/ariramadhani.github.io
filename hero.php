@@ -1,5 +1,5 @@
-<section class="back_top">
-    <div class="container d-flex flex-column min-vh-100 justify-content-center">
+<section id="home" class="back_top">
+    <div class="container d-flex flex-column min-vh-90 justify-content-center mt-md-4 pt-md-4 mb-4">
         <div class="card_center d-flex flex-column justify-content-center align-items-center">
             <ul class="social-icons">
                 <li><a href="https://www.instagram.com/ardhani34"><i class="fa fa-instagram"></i></a></li>
