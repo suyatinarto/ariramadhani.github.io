@@ -44,6 +44,11 @@
                 <!--==================== PORTFOLIO 1 ====================-->
                 <div class="row">
                     <div class="col-sm-3 col-6 portfolio__col">
+                        <a href="assets/img/uimobile/lpkn.png" class="mobile-popup" >
+                            <img src="assets/img/uimobile/lpkn.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-6 portfolio__col">
                         <a href="assets/img/uimobile/kursi.png" class="mobile-popup" >
                             <img src="assets/img/uimobile/kursi.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
                         </a>
@@ -56,11 +61,6 @@
                     <div class="col-sm-3 col-6 portfolio__col">
                         <a href="assets/img/uimobile/sport.png" class="mobile-popup" >
                             <img src="assets/img/uimobile/sport.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
-                        </a>
-                    </div>
-                    <div class="col-sm-3 col-6 portfolio__col">
-                        <a href="assets/img/uimobile/petto.png" class="mobile-popup" >
-                            <img src="assets/img/uimobile/petto.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
                         </a>
                     </div>
                     <div class="col-sm-3 col-6 portfolio__col">
@@ -80,6 +80,11 @@
                         </a>
                     </div>
                     
+                    <div class="col-sm-3 col-6 portfolio__col">
+                        <a href="assets/img/uiweb/petto.png" class="web-popup" >
+                            <img src="assets/img/uiweb/petto.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
+                        </a>
+                    </div>
                     <div class="col-sm-3 col-6 portfolio__col">
                         <a href="assets/img/uiweb/fashion.png" class="web-popup" >
                             <img src="assets/img/uiweb/fashion.png"alt="your image" id="produk_ulasan_image" class="portfolio__img">
